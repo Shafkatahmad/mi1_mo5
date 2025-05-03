@@ -1,6 +1,7 @@
 .parent {
   padding: 25px;
   background-color: blanchedalmond;
+  display: flex;
 }
 
 .child {
@@ -8,5 +9,6 @@
   background-color: rgb(178, 228, 229);
   padding: 20px;
   font-size: 28px;
-  margin: 10px;
+  margin: 10px 0;
+  display: inline;
 }
