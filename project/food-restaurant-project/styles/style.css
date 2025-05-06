@@ -19,6 +19,7 @@ text-align: center;
 border-radius: 8px;
 background: rgb(82, 195, 3);
 border: none;
+cursor: pointer;
 }
 
 #hero {
@@ -65,4 +66,70 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
 margin-bottom: 16px;
+}
+
+#card-box {
+  width: 1200px;
+  height: 600px;
+  border: 1px solid red;
+  margin: 100px auto;
+  
+}
+#card-box .info {
+  margin-top: ;
+}
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+#card-box .title {
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .card-container {
+  margin-top: 30px;
+  border: 1px solid blue;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: Work Sans;
+}
+.card {
+  max-width: 250px;
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box img {
+  width: 250px;
+  border: 1px solid red;
+  width: 100%;
+}
+.card .shop {
+  background-color: aqua;
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  margin-top: 64px;
 }
